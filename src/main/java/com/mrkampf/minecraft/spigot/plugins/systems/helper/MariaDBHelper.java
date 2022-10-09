@@ -53,4 +53,12 @@ public class MariaDBHelper {
     public void reconnect() {
         this.conn();
     }
+
+    public void close() {
+        try {
+            connection.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
