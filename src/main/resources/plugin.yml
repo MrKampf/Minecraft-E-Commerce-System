@@ -1,0 +1,6 @@
+name: Ecommerce
+version: '${project.version}'
+main: com.mrkampf.minecraft.spigot.plugins.systems.ecommerce
+api-version: 1.16
+authors: [ MrKampf ]
+website: https://github.com/MrKampf
